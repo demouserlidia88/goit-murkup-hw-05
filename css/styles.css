@@ -258,6 +258,9 @@ ul{
 	transition: 3000ms linear;
 	z-index: 10;
 }
+.is-hidden{
+	visibility: hidden;
+}
 .modal.active {
 	transform: scale(1);
 }
@@ -415,7 +418,7 @@ ul{
 
 /* section-button */
 
-.button-active-background {
+#modal, .button-active-background {
     background-color: var( --heading-color);
 	color:#FFFFFF;
 	width: 200px;
